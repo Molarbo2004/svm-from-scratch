@@ -62,6 +62,56 @@ Train Accuracy (с margin): 0.9286
 
 Test Accuracy (с margin): 0.9000
 
+# Сравнение работы нашего SVM по сравнению с SVM от Sklearn с использования ядра - 'linear' для обоих случаев
+<img width="1878" height="735" alt="image" src="https://github.com/user-attachments/assets/ca1f4c52-c03b-411c-8792-2f2d8425972d" />
+NON-LINEAR DATASET: Make Moons
+
+Количество примеров: 500
+
+Количество признаков: 2
+
+Параметры сравнения:
+
+Sklearn C = 100
+
+Наш альфа = 0.01
+
+============================================================
+СРАВНЕНИЕ РЕЗУЛЬТАТОВ НА НЕЛИНЕЙНЫХ ДАННЫХ
+============================================================
+
+НАША РЕАЛИЗАЦИЯ (Линейное ядро):
+
+Train Accuracy (только знак): 0.8629
+
+Test Accuracy (только знак): 0.8733
+
+Train Accuracy (с margin): 0.6571
+
+Test Accuracy (с margin): 0.6467
+
+SKLEARN Линейное ядро:
+
+Train Accuracy: 0.8743
+
+Test Accuracy: 0.8800
+
+ПАРАМЕТРЫ МОДЕЛЕЙ:
+
+Наши веса: [0.698564, -2.205575]
+
+Наш bias: 0.216774
+
+Sklearn веса: [0.852786, -3.317118]
+
+Sklearn bias: 0.437132
+
+РАЗНИЦА:
+
+Train Accuracy разница: 0.0114
+
+Test Accuracy разница: 0.0067
+
 
 
 
