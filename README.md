@@ -36,18 +36,28 @@ py examples/svm_vs_sklearn.py
 # Результат работы на нелинейных данных на датасете Make Moons:
 <img width="1709" height="944" alt="image" src="https://github.com/user-attachments/assets/bb5d0276-8724-4497-82a7-9802062e3a4a" />
 Результаты:
-\n Train Accuracy (только знак): 0.8629
+Train Accuracy (только знак): 0.8629
+
 Test Accuracy (только знак): 0.8733 
+
 Train Accuracy (с margin): 0.6571   
+
 Test Accuracy (с margin): 0.6467  
+
 # Результат работы на линейных данных на датасете Iris 
 <img width="1112" height="923" alt="image" src="https://github.com/user-attachments/assets/0b663b31-30aa-42a0-b052-ee4d78e59c10" />
 Ирисы Фишера - два класса, два признака
+
 Признаки: petal length (cm) и petal width (cm)
+
 Результаты:
+
 Train Accuracy (только знак): 1.0000
+
 Test Accuracy (только знак): 1.0000
+
 Train Accuracy (с margin): 0.9286
+
 Test Accuracy (с margin): 0.9000
 
 
