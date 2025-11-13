@@ -1,0 +1,5 @@
+numpy>=1.20
+scikit-learn>=1.0
+matplotlib>=3.5
+jupyter>=1.0
+pytest>=7.0
