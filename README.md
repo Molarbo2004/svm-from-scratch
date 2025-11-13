@@ -33,8 +33,11 @@ py examples/demo_nelineynoe_svm.py
 # Сравнение с sklearn
 py examples/svm_vs_sklearn.py
 
-Результат работы на нелинейных данных на датасете Make Moons:
+# Результат работы на нелинейных данных на датасете Make Moons:
 <img width="1709" height="944" alt="image" src="https://github.com/user-attachments/assets/bb5d0276-8724-4497-82a7-9802062e3a4a" />
+Точность: <img width="609" height="189" alt="image" src="https://github.com/user-attachments/assets/1eccc61f-d41b-44e2-80ee-1ce20dd9af73" />
+# Результат работы на линейных данных на датасете Iris 
+
 
 
 
